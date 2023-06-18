@@ -1,5 +1,0 @@
-
-db.createCollection( 'Comanda', {validator: {$jsonSchema: {bsonType: 'object',title:'Comanda',required: [         'data',          'recollir_botiga',          'import_total',          'linia',          'Botiga'],properties: {data: {bsonType: 'date'},recollir_botiga: {bsonType: 'bool'},import_total: {bsonType: 'bool'},linia: {bsonType: 'object',
-title:'object',required: [         'quantitat',          'producte',          'preu_unitari',          'preu_linia'],properties: {quantitat: {bsonType: 'decimal'},producte: {bsonType: 'object',
-title:'object',required: [         'nom',          'descripcio',          'imatge',          'preu_unitat',          'unitat',          'categoria'],properties: {nom: {bsonType: 'string'},descripcio: {bsonType: 'string'},imatge: {bsonType: 'string'},preu_unitat: {bsonType: 'decimal'},unitat: {bsonType: 'string'},categoria: {bsonType: 'object',
-title:'object',required: [         'nom'],properties: {nom: {bsonType: 'string'},subcategories_pizza: {bsonType: 'array',items: {}}}}}},preu_unitari: {bsonType: 'decimal'},preu_linia: {bsonType: 'decimal'}}},Botiga: {bsonType: 'objectId'}}         }      }});  
