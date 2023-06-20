@@ -1,0 +1,3 @@
+
+db.createCollection( 'Factura', {validator: {$jsonSchema: {bsonType: 'object',title:'Factura',required: [         'data',          'import',          'Client'],properties: {data: {bsonType: 'date'},empleat_venedor: {bsonType: 'object',
+title:'object',required: [         'nom'],properties: {nom: {bsonType: 'string'}}},import: {bsonType: 'decimal'},Client: {bsonType: 'objectId'}}         }      }});  
