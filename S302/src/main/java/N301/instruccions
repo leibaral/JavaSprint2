@@ -1,0 +1,5 @@
+Dependency injection:
+
+Dissenya una classe que mostri en pantalla el preu de diversos articles, en diferents tipus de moneda.
+Assegura't d'afegir-li com a injecció de dependència una classe Convertidor de Moneda que efectui la
+correcció del preu en funció del canvi de divisa.
